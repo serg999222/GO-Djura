@@ -8,23 +8,23 @@ const swiper = new Swiper('.swiper', {
 	// Optional parameters
 	direction: 'horizontal',
 
-	effect: 'flip',
-	flipEffect: {
+	// effect: 'flip',
+	// flipEffect: {
 
-		slideShadows: true,
-
-		limitRotation: true
-	},
-
-	// effect: 'cube',
-	// cubeEffect: {
-	// 	// crossFade: true
 	// 	slideShadows: true,
-	// 	shadow: true,
-	// 	shadowOffset: 20,
-	// 	shadowScale: 0.94
-	// 	// limitRotation: true
+
+	// 	limitRotation: true
 	// },
+
+	effect: 'cube',
+	cubeEffect: {
+		// crossFade: true
+		slideShadows: true,
+		shadow: true,
+		shadowOffset: 20,
+		shadowScale: 0.94
+		// limitRotation: true
+	},
 
 
 	loop: true,
