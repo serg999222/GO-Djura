@@ -7,12 +7,32 @@ let burger = document.querySelector(".menu__burger").addEventListener("click", s
 const swiper = new Swiper('.swiper', {
 	// Optional parameters
 	direction: 'horizontal',
+
+	effect: 'cube',
+	cubeEffect: {
+		// crossFade: true
+		slideShadows: true,
+		shadow: true,
+		shadowOffset: 20,
+		shadowScale: 0.94
+		// limitRotation: true
+	},
+
+
 	loop: true,
 
 	// If we need pagination
 	pagination: {
 		el: '.swiper-pagination',
 	},
+
+	autoplay: {
+		delay: 3000,
+		stopOnLastSlide: true,
+		disableOnInteraction: false
+	},
+
+	speed: 1000,
 
 	// Navigation arrows
 	navigation: {

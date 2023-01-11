@@ -269,17 +269,23 @@ h6 {
 .main__subtitle {
 	font-size: 30px;
 	text-align: center;
-	margin-bottom: 30px;
+	margin-bottom: 80px;
 }
 
 @media(max-width:332px) {
 	.main__title {
 		color: azure;
-		font-size: 40px;
+		font-size: 30px;
 		text-align: center;
 		margin-bottom: 10px;
 		margin-top: 20px;
 		margin-right: 10px;
+	}
+
+	.main__subtitle {
+		font-size: 20px;
+		text-align: center;
+		margin-bottom: 50px;
 	}
 }
 
@@ -359,7 +365,7 @@ h6 {
 
 }
 
-
+.swiper-pagination {}
 
 
 
